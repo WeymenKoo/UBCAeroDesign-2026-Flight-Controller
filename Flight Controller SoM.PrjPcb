@@ -86,7 +86,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OEXGVJMS
 
 [Document3]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=Button_and_LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
