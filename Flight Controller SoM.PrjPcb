@@ -52,13 +52,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=MCU_IO.SchDoc
+DocumentPath=Block_Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -66,16 +66,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KIKTILHD
+DocumentUniqueId=BCGGWQAR
 
 [Document2]
-DocumentPath=MCU_Power.SchDoc
+DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -83,7 +83,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OEXGVJMS
+DocumentUniqueId=YQCEONMU
 
 [Document3]
 DocumentPath=Power.SchDoc
@@ -103,6 +103,40 @@ GenerateClassCluster=0
 DocumentUniqueId=RCKXSCYS
 
 [Document4]
+DocumentPath=MCU_IO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KIKTILHD
+
+[Document5]
+DocumentPath=MCU_Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OEXGVJMS
+
+[Document6]
 DocumentPath=Sensor_DPS368.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -119,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VQZPUTQZ
 
-[Document5]
+[Document7]
 DocumentPath=Sensor_LSM6DSV32X .SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BEXAQRAV
 
-[Document6]
+[Document8]
 DocumentPath=Sensor_LIS2MDL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,7 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GEIVWSCM
 
-[Document7]
+[Document9]
 DocumentPath=Sensor2_MS5611.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VQYIGLBN
 
-[Document8]
+[Document10]
 DocumentPath=Sensor2_ICM-42688-P.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -187,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PSXIDIBJ
 
-[Document9]
+[Document11]
 DocumentPath=Memory_FRAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJQOPDBQ
 
-[Document10]
+[Document12]
 DocumentPath=Memory_microSD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DBHUVLPQ
 
-[Document11]
+[Document13]
 DocumentPath=Memory_EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDFHEQMF
 
-[Document12]
+[Document14]
 DocumentPath=Comms_CAN_Tranceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HPFJMXYR
 
-[Document13]
+[Document15]
 DocumentPath=Interface_Onboard_Conn.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GKCYGIDZ
 
-[Document14]
+[Document16]
 DocumentPath=Interface_Carrier_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RNZYKFSJ
 
-[Document15]
+[Document17]
 DocumentPath=Button_and_LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWSJIPGH
 
-[Document16]
+[Document18]
 DocumentPath=Flight Controller SoM.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
