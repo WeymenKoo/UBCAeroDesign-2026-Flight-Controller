@@ -86,6 +86,23 @@ GenerateClassCluster=0
 DocumentUniqueId=OEXGVJMS
 
 [Document3]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RCKXSCYS
+
+[Document4]
 DocumentPath=IMU1_LSM6DSV32X .SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BEXAQRAV
 
-[Document4]
+[Document5]
 DocumentPath=Button_and_LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -119,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWSJIPGH
 
-[Document5]
+[Document6]
 DocumentPath=Flight Controller SoM.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,23 +152,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WKULKJEH
-
-[Document6]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RCKXSCYS
 
 [Configuration1]
 Name=Sources
