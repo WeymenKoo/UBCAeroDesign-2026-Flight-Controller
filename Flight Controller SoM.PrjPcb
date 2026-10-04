@@ -1405,10 +1405,9 @@ PartTypes=0
 Net1=NetName=+A3V3|NetColor=clYellow
 Net2=NetName=+D3V3|NetColor=$000099FF
 Net3=NetName=NetC40_1|NetColor=clFuchsia
-Net4=NetName=VCAPDSI|NetColor=$00E8864A
-Net5=NetName=VCORE|NetColor=$00FF0099
-Net6=NetName=VFBSMPS|NetColor=$00FF0099
-Net7=NetName=VLXSMPS|NetColor=clFuchsia
+Net4=NetName=VCORE|NetColor=$00FF0099
+Net5=NetName=VFBSMPS|NetColor=$00FF0099
+Net6=NetName=VLXSMPS|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
