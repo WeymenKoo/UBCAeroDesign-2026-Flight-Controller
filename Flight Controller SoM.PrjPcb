@@ -442,6 +442,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document24]
+DocumentPath=Sensor_DPS368.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1453,13 +1470,15 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=+A3V3|NetColor=clYellow
-Net2=NetName=+D3V3|NetColor=$000099FF
-Net3=NetName=NetC40_1|NetColor=clFuchsia
-Net4=NetName=SD_VCC|NetColor=$000099FF
-Net5=NetName=VCORE|NetColor=$00FF0099
-Net6=NetName=VFBSMPS|NetColor=$00FF0099
-Net7=NetName=VLXSMPS|NetColor=clFuchsia
+Net1=NetName=+3V3LDO|NetColor=$000099FF
+Net2=NetName=+A3V3|NetColor=clYellow
+Net3=NetName=+D3V3|NetColor=$000099FF
+Net4=NetName=+MCU_VREF|NetColor=clYellow
+Net5=NetName=NetC40_1|NetColor=clFuchsia
+Net6=NetName=SD_VCC|NetColor=$000099FF
+Net7=NetName=VCORE|NetColor=$00FF0099
+Net8=NetName=VFBSMPS|NetColor=$00FF0099
+Net9=NetName=VLXSMPS|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
