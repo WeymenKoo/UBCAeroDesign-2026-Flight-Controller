@@ -290,7 +290,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HPFJMXYR
 
 [Document15]
-DocumentPath=Interface_Onboard_Conn.SchDoc
+DocumentPath=Interface_Debug.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
