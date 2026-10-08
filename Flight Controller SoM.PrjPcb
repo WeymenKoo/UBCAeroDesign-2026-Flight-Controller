@@ -1611,11 +1611,12 @@ Net2=NetName=+5V_CARRIER|NetColor=clRed
 Net3=NetName=+A3V3|NetColor=clYellow
 Net4=NetName=+D3V3|NetColor=$000099FF
 Net5=NetName=+MCU_VREF|NetColor=clYellow
-Net6=NetName=NetC40_1|NetColor=clFuchsia
-Net7=NetName=SD_VCC|NetColor=$000099FF
-Net8=NetName=VCORE|NetColor=$00FF0099
-Net9=NetName=VFBSMPS|NetColor=$00FF0099
-Net10=NetName=VLXSMPS|NetColor=clFuchsia
+Net6=NetName=+VCARRIER|NetColor=clRed
+Net7=NetName=NetC40_1|NetColor=clFuchsia
+Net8=NetName=SD_VCC|NetColor=$000099FF
+Net9=NetName=VCORE|NetColor=$00FF0099
+Net10=NetName=VFBSMPS|NetColor=$00FF0099
+Net11=NetName=VLXSMPS|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
