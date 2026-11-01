@@ -1765,9 +1765,9 @@ Net114=NetName=NetJ4_46|NetColor=$00065FB4
 Net115=NetName=NetJ4_47|NetColor=$00065FB4
 Net116=NetName=NetJ4_5|NetColor=clLime
 Net117=NetName=NetJ4_6|NetColor=clLime
-Net118=NetName=NetJ4_67|NetColor=clFuchsia
-Net119=NetName=NetJ4_68|NetColor=clFuchsia
-Net120=NetName=NetJ4_70|NetColor=clRed
+Net118=NetName=NetJ4_67|NetColor=clBlack
+Net119=NetName=NetJ4_68|NetColor=clBlack
+Net120=NetName=NetJ4_70|NetColor=clBlack
 Net121=NetName=NetJ4_71|NetColor=$00065FB4
 Net122=NetName=NetJ4_72|NetColor=$00065FB4
 Net123=NetName=NetLabel189|NetColor=clLime
