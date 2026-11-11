@@ -630,7 +630,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document35]
-DocumentPath=..\..\..\..\weymen\Downloads\SetPassives.pas
+DocumentPath=..\..\..\..\weymen\Downloads\FC_SetupRules.pas
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
