@@ -443,7 +443,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UWCKRLKP
 
 [Document24]
-DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Flight Controller SoM.PcbDoc
+DocumentPath=Flight Controller SoM.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
