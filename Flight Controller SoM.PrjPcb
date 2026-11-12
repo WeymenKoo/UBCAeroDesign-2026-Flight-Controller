@@ -52,23 +52,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Flight Controller SoM.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WKULKJEH
-
-[Document2]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -85,7 +68,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YQCEONMU
 
-[Document3]
+[Document2]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,7 +85,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RCKXSCYS
 
-[Document4]
+[Document3]
 DocumentPath=MCU_IO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -119,7 +102,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KIKTILHD
 
-[Document5]
+[Document4]
 DocumentPath=MCU_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OEXGVJMS
 
-[Document6]
+[Document5]
 DocumentPath=Sensor_DPS368.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VQZPUTQZ
 
-[Document7]
+[Document6]
 DocumentPath=Sensor_LSM6DSV32X .SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BEXAQRAV
 
-[Document8]
+[Document7]
 DocumentPath=Sensor_LIS2MDL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -187,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GEIVWSCM
 
-[Document9]
+[Document8]
 DocumentPath=Sensor2_MS5611.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,7 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VQYIGLBN
 
-[Document10]
+[Document9]
 DocumentPath=Sensor2_ICM-42688-P.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PSXIDIBJ
 
-[Document11]
+[Document10]
 DocumentPath=Memory_FRAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJQOPDBQ
 
-[Document12]
+[Document11]
 DocumentPath=Memory_microSD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DBHUVLPQ
 
-[Document13]
+[Document12]
 DocumentPath=Memory_EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDFHEQMF
 
-[Document14]
+[Document13]
 DocumentPath=Comms_CAN1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HPFJMXYR
 
-[Document15]
+[Document14]
 DocumentPath=Comms_CAN2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UTHYZENN
 
-[Document16]
+[Document15]
 DocumentPath=Button_and_LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -323,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWSJIPGH
 
-[Document17]
+[Document16]
 DocumentPath=Interface_Debug.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -340,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GKCYGIDZ
 
-[Document18]
+[Document17]
 DocumentPath=Memory_microSD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -357,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=MCU_IO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -374,7 +357,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=Memory_FRAM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -391,7 +374,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=Memory_EEPROM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -408,7 +391,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document21]
 DocumentPath=Sensor_DPS368.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -425,7 +408,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=Sensor_LSM6DSV32X .Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -442,7 +425,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=Interface_Conn2_Carrier_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -458,6 +441,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UWCKRLKP
+
+[Document24]
+DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Flight Controller SoM.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WKULKJEH
 
 [Document25]
 DocumentPath=Interface_Conn1_Carrier_Board.SchDoc
