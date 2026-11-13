@@ -629,19 +629,61 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document35]
+DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Tools\FC_SoM_PlaceRoutes.pas
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document36]
+DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Tools\FC_SoM_RuleCleanup.pas
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Flight Controller SoM\Flight Controller SoM.nsx
+DocumentPath=Project Outputs for Flight Controller SoM\Design Rule Check - Flight Controller SoM.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=MessageListReport.html
+DocumentPath=Project Outputs for Flight Controller SoM\Flight Controller SoM.nsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Flight Controller SoM\Pick Place for Flight Controller SoM.csv
+DocumentPath=MessageListReport.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=..\..\..\..\..\Program Files\Altium\AD26\file:\C:\Users\Public\Documents\Altium\Flight Controller SoM\Project Outputs for Flight Controller SoM\MessageListReport.html
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Flight Controller SoM\Pick Place for Flight Controller SoM.csv
+DItemRevisionGUID=
+
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Flight Controller SoM\Pick Place for Flight Controller SoM.txt
 DItemRevisionGUID=
 
