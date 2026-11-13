@@ -655,11 +655,11 @@ DocumentPath=Project Outputs for Flight Controller SoM\Flight Controller SoM.nsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=MessageListReport.html
+DocumentPath=..\..\..\..\..\Program Files\Altium\AD26\file:\C:\Users\Public\Documents\Altium\Flight Controller SoM\Project Outputs for Flight Controller SoM\MessageListReport.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=..\..\..\..\..\Program Files\Altium\AD26\file:\C:\Users\Public\Documents\Altium\Flight Controller SoM\Project Outputs for Flight Controller SoM\MessageListReport.html
+DocumentPath=MessageListReport.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
@@ -2323,7 +2323,7 @@ Net60=NetName=FRAM_CS|NetColor=clAqua
 Net61=NetName=FRAM_MISO|NetColor=clAqua
 Net62=NetName=FRAM_MOSI|NetColor=clAqua
 Net63=NetName=FRAM_SCK|NetColor=clAqua
-Net64=NetName=GND|NetColor=$00434343
+Net64=NetName=GND|NetColor=clBlack
 Net65=NetName=GPS1_RX|NetColor=$00134E27
 Net66=NetName=GPS1_TX|NetColor=$00134E27
 Net67=NetName=GPS2_RX|NetColor=$00134E27
