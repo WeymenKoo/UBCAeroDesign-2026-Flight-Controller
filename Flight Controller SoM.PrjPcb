@@ -630,23 +630,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document35]
-DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Tools\FC_SoM_PlaceRoutes.pas
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document36]
 DocumentPath=G:\Other computers\MBA 1\Documents\Project\01 Hardware\Flight Controller SoM Lib\Tools\FC_SoM_RuleCleanup.pas
 AnnotationEnabled=1
 AnnotateStartValue=1
