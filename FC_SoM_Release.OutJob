@@ -22,7 +22,7 @@ VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Microsoft Print to PDF
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Fabrication
 OutputMedium1_Type=GeneratedFiles
 OutputMedium2=Assembly
