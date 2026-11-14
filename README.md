@@ -1,73 +1,22 @@
-# UBC AeroDesign Flight Controller SoM (Rev A)
+# Flight Controller SoM
 
-A 55 x 40 mm, 8-layer flight controller system-on-module for UBC AeroDesign, built around the **STM32H757XIH6** and running **ArduPilot**. It plugs into a carrier board through two board-to-board connectors: 80 pins for flight functions and 60 pins for the payload.
+A small flight controller for autonomous aircraft. It's the "brain" that reads the sensors, keeps the aircraft stable, follows a flight plan and controls the motors and servos.
 
-> **Status:** Rev A, November 2026. The board is designed but has not been built or powered yet.
+It runs [ArduPilot](https://ardupilot.org/), the open-source autopilot, on an STM32H7 processor. The whole thing is a 55 x 40 mm module (SoM, system-on-module) that plugs into a carrier board. The carrier handles wiring to the rest of the aircraft, so the same flight controller can go into different airframes.
 
-![Top side of the Rev A board](docs/images/fc_som_top_hero_4k.png)
+![Flight Controller SoM](docs/images/fc_som_top_hero_4k.png)
+
+## What it does
+
+- **Senses motion and altitude** with two IMUs (accelerometer and gyroscope) and two barometers. Each sensor has a backup from a different maker, so one failure doesn't bring the aircraft down.
+- **Controls the aircraft** through 16 motor and servo outputs.
+- **Talks to everything else** on board over GPS, radio receiver, telemetry, CAN and I2C links.
+- **Logs every flight** to a microSD card.
+- **Runs a separate payload** (cameras, drop mechanisms and the like) through its own connector, kept apart from the flight-critical signals.
+- **Connects to a computer over USB-C** for setup, firmware updates and log download.
 
 | Top | Bottom |
 |---|---|
 | ![Top](docs/images/fc_som_top_white_2400.png) | ![Bottom](docs/images/fc_som_bottom_white_2400.png) |
 
-## Specifications
-
-| | |
-|---|---|
-| MCU | STM32H757XIH6, Cortex-M7 at 400 MHz, 2 MB flash (the Cortex-M4 core is unused) |
-| Firmware | ArduPilot (board ID placeholder `AP_HW_UBC_FCSOM`) |
-| IMU 1 / IMU 2 | LSM6DSV32X on SPI1 / ICM-42688-P on SPI5 |
-| Barometers | DPS368 on SPI1 / MS5611 on SPI5 |
-| Compass | LIS2MDL on internal I2C (bench use only; flight uses the GNSS-mast compass) |
-| Storage | FM25V02A FRAM (parameters, SPI2), M24C64 EEPROM (board ID), microSD on SDMMC1 (logs) |
-| Interfaces | 8 UARTs plus USB-C, 16 PWM outputs (DShot capable), 2 CAN buses with on-board TCAN3414 transceivers, 4 I2C buses (1 internal, 3 external), 5 analog inputs for power monitoring |
-| Power | 5 V from the carrier (J4-77 to 80) or USB-C, carrier has priority. TPS259474 eFuse input protection |
-| Connectors | J4 80-pin and J5 60-pin (Hirose DF17, bottom side), USB-C, 6-pin SWD, microSD |
-| Board | 55 x 40 mm, 8 layers, M3 mounting holes on a 48.4 x 33.4 mm pattern, parts on both sides |
-| Fabrication | JLCPCB (ENIG, filled and capped vias, PCBA both sides) |
-
-## Repository layout
-
-| Path | Contents |
-|---|---|
-| `Flight Controller SoM.PrjPcb` | Altium project |
-| `*.SchDoc`, `*.Harness`, `Top.SchDoc` | Hierarchical schematic: power, MCU, sensors, memory, CAN, debug, carrier interfaces |
-| `Flight Controller SoM.PcbDoc` | 8-layer PCB layout |
-| `Flight Controller SoM.BomDoc` | ActiveBOM |
-| `FC_SoM_Release.OutJob` | Release output job (Gerbers, drills, BOM, pick and place, STEP, schematic PDF) |
-| `Project Outputs for Flight Controller SoM/` | Generated outputs: `Fabrication`, `Assembly`, `Documentation` (schematic PDF and datasheets), `Mechanical` (STEP) |
-| `Project Logs for Flight Controller SoM/` | Altium ECO logs |
-| `docs/images/` | Renders used in this README |
-
-The project is also managed in an Altium 365 workspace (the `origin` remote). This GitHub repository is the `github` remote.
-
-## Hardware design notes
-
-- **Redundant sensors.** Two IMUs and two barometers from different manufacturers on separate SPI buses, so one bus fault or one vibration frequency cannot take out the whole set.
-- **Clean sensor supply.** A TPS7A20 low-noise LDO feeds the sensors from 5 V rather than from the 3.3 V buck, so switching ripple stays out of the sensors.
-- **Power path.** A TPS2116 mux prioritises carrier 5 V over USB, and the eFuse trips above 1.5 A or when 5 V leaves 4.19 to 5.46 V.
-- **Flight and payload separation.** CAN1 and the 80-pin connector are for flight devices. CAN2 and the 60-pin connector are for the payload, each on its own controller.
-- **Parameter storage.** FRAM does not wear out and survives power loss during a write.
-- **Not on the SoM.** CAN termination, ESD protection on J4/J5 signals, and the battery voltage and current dividers live on the carrier. The SoM already has 2k2 I2C pull-ups, so the carrier fits none.
-
-## Rev A caveats
-
-- IMU rotations in the hwdef are placeholders. Both IMUs need `ROTATION_ROLL_180_YAW_90`, to be confirmed with a motion test.
-- Set low drive strength on slow pins to reduce emissions (L3 signals cross the VCORE slot and the 3.3 V / sensor-rail split in the L4 plane).
-- There is no over-voltage protection on the USB path; scope VBUS on first hot-plug.
-- Keep J4-70 unconnected, J4-67/68 are GND, and payload 5 V and 3.3 V on J5 have no current limit of their own.
-- Altium names inner-layer Gerbers by layer number, not stack position. Run `JLC_inner_layer_order.bat` (kept in the team's Lib folder, not in this repo) after generating Gerbers, otherwise JLCPCB builds the inner layers in the wrong order.
-
-The full Rev A to-do and Rev B list is in `FC_SoM_RevA_TODO.md` in the team's Lib folder.
-
-## Ordering from JLCPCB
-
-1. Open the project in Altium, save all, compile and run DRC (0 violations).
-2. In `FC_SoM_Release.OutJob`, generate Fabrication, Assembly and Mechanical, and publish Documentation.
-3. Run `JLC_inner_layer_order.bat` on the Fabrication output.
-4. Zip the Gerber and drill files and upload them. Check in the viewer: 8 copper layers in order, 55 x 40 mm outline, holes.
-5. Upload the BOM and pick-and-place CSVs from `Assembly/` and check pin 1 and rotation of every polarised part, top and bottom.
-
-## Team
-
-Designed in Vancouver by Weymen K. and Lachlan B. for UBC AeroDesign.
+Designed in Altium by UBC AeroDesign, 2026.
