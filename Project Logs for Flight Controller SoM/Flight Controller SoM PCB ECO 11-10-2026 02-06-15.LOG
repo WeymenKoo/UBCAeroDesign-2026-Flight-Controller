@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=PAY_IO4 Pin=U1-A2
+Added Pin To Net: NetName=PAY_IO6 Pin=U1-A3
+Added Pin To Net: NetName=PAY_IO8 Pin=U1-A4
+Added Pin To Net: NetName=PAY_IO17 Pin=U1-A8
+Added Pin To Net: NetName=PAY_IO7 Pin=U1-B3
+Added Pin To Net: NetName=PAY_IO14 Pin=U1-B7
+Added Pin To Net: NetName=PAY_IO15 Pin=U1-B8
+Added Pin To Net: NetName=PAY_IO5 Pin=U1-C3
+Added Pin To Net: NetName=PAY_IO10 Pin=U1-C5
+Added Pin To Net: NetName=PAY_IO12 Pin=U1-C7
+Added Pin To Net: NetName=PAY_IO16 Pin=U1-C8
+Added Pin To Net: NetName=PAY_IO3 Pin=U1-D3
+Added Pin To Net: NetName=PAY_IO11 Pin=U1-D6
+Added Pin To Net: NetName=PAY_IO13 Pin=U1-D7
+Added Pin To Net: NetName=PAY_IO9 Pin=U1-E5
+Added Pin To Net: NetName=PAY_IO2 Pin=U1-F4
+Added Pin To Net: NetName=PAY_IO1 Pin=U1-G4

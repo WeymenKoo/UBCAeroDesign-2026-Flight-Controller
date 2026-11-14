@@ -1,0 +1,150 @@
+Removed Pin From Net: NetName=GND Pin=J4-4
+Removed Pin From Net: NetName=GND Pin=J4-9
+Removed Pin From Net: NetName=GND Pin=J4-15
+Removed Pin From Net: NetName=GND Pin=J4-23
+Removed Pin From Net: NetName=GND Pin=J4-29
+Removed Pin From Net: NetName=GND Pin=J4-34
+Removed Pin From Net: NetName=GND Pin=J4-41
+Removed Pin From Net: NetName=GND Pin=J4-44
+Removed Pin From Net: NetName=GND Pin=J4-47
+Removed Pin From Net: NetName=GND Pin=J4-52
+Removed Pin From Net: NetName=GND Pin=J4-55
+Removed Pin From Net: NetName=GND Pin=J4-58
+Added Pin To Net: NetName=GND Pin=J4-7
+Added Pin To Net: NetName=GND Pin=J4-19
+Added Pin To Net: NetName=GND Pin=J4-22
+Added Pin To Net: NetName=GND Pin=J4-27
+Added Pin To Net: NetName=GND Pin=J4-30
+Added Pin To Net: NetName=GND Pin=J4-33
+Added Pin To Net: NetName=GND Pin=J4-48
+Added Pin To Net: NetName=GND Pin=J4-57
+Added Pin To Net: NetName=CAN1_P Pin=J4-63
+Added Pin To Net: NetName=CAN1_N Pin=J4-64
+Added Pin To Net: NetName=GND Pin=J4-65
+Added Pin To Net: NetName=GND Pin=J4-66
+Added Pin To Net: NetName=GND Pin=J4-69
+Added Pin To Net: NetName=GND Pin=J4-73
+Added Pin To Net: NetName=+D3V3 Pin=J4-74
+Added Pin To Net: NetName=+D3V3 Pin=J4-75
+Added Pin To Net: NetName=IMU1_CS Pin=U1-U6
+Added Pin To Net: NetName=BARO1_MISO Pin=U2-1
+Added Pin To Net: NetName=BARO1_SCK Pin=U2-13
+Added Pin To Net: NetName=BARO1_MOSI Pin=U2-14
+Change Net Name : Old Net Name=+5V_CARRIER New Net Name=+VCARRIER
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Yellow
+Added Pin To Net: NetName=COMP_RX Pin=J4-49
+Added Net: Name=COMP_RX
+Added Pin To Net: NetName=COMP_TX Pin=J4-50
+Added Net: Name=COMP_TX
+Added Pin To Net: NetName=DEBUG_RX Pin=J4-55
+Added Net: Name=DEBUG_RX
+Added Pin To Net: NetName=DEBUG_TX Pin=J4-56
+Added Net: Name=DEBUG_TX
+Added Pin To Net: NetName=ELRS_RX Pin=J4-21
+Added Net: Name=ELRS_RX
+Added Pin To Net: NetName=ELRS_TX Pin=J4-20
+Added Net: Name=ELRS_TX
+Added Pin To Net: NetName=FMU_CH1 Pin=J4-28
+Added Net: Name=FMU_CH1
+Added Pin To Net: NetName=FMU_CH2 Pin=J4-29
+Added Net: Name=FMU_CH2
+Added Pin To Net: NetName=FMU_CH3 Pin=J4-31
+Added Net: Name=FMU_CH3
+Added Pin To Net: NetName=FMU_CH4 Pin=J4-32
+Added Net: Name=FMU_CH4
+Added Pin To Net: NetName=FMU_CH5 Pin=J4-8
+Added Net: Name=FMU_CH5
+Added Pin To Net: NetName=FMU_CH6 Pin=J4-9
+Added Net: Name=FMU_CH6
+Added Pin To Net: NetName=FMU_CH7 Pin=J4-10
+Added Net: Name=FMU_CH7
+Added Pin To Net: NetName=FMU_CH8 Pin=J4-11
+Added Net: Name=FMU_CH8
+Added Pin To Net: NetName=FMU_CH9 Pin=J4-34
+Added Net: Name=FMU_CH9
+Added Pin To Net: NetName=FMU_CH10 Pin=J4-35
+Added Net: Name=FMU_CH10
+Added Pin To Net: NetName=FMU_CH11 Pin=J4-36
+Added Net: Name=FMU_CH11
+Added Pin To Net: NetName=FMU_CH12 Pin=J4-37
+Added Net: Name=FMU_CH12
+Added Pin To Net: NetName=FMU_CH13 Pin=J4-23
+Added Net: Name=FMU_CH13
+Added Pin To Net: NetName=FMU_CH14 Pin=J4-24
+Added Net: Name=FMU_CH14
+Added Pin To Net: NetName=FMU_CH15 Pin=J4-25
+Added Net: Name=FMU_CH15
+Added Pin To Net: NetName=FMU_CH16 Pin=J4-26
+Added Net: Name=FMU_CH16
+Added Pin To Net: NetName=GPS1_RX Pin=J4-52
+Added Net: Name=GPS1_RX
+Added Pin To Net: NetName=GPS1_TX Pin=J4-51
+Added Net: Name=GPS1_TX
+Added Pin To Net: NetName=GPS2_RX Pin=J4-53
+Added Net: Name=GPS2_RX
+Added Pin To Net: NetName=GPS2_TX Pin=J4-54
+Added Net: Name=GPS2_TX
+Added Pin To Net: NetName=I2C_AIR_SCL Pin=J4-15
+Added Net: Name=I2C_AIR_SCL
+Added Pin To Net: NetName=I2C_AIR_SDA Pin=J4-16
+Added Net: Name=I2C_AIR_SDA
+Added Pin To Net: NetName=I2C_GNSS_SCL Pin=J4-13
+Added Net: Name=I2C_GNSS_SCL
+Added Pin To Net: NetName=I2C_GNSS_SDA Pin=J4-14
+Added Net: Name=I2C_GNSS_SDA
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Net: Name=NetJ4_2
+Added Pin To Net: NetName=NetJ4_3 Pin=J4-3
+Added Net: Name=NetJ4_3
+Added Pin To Net: NetName=NetJ4_4 Pin=J4-4
+Added Net: Name=NetJ4_4
+Added Pin To Net: NetName=NetJ4_5 Pin=J4-5
+Added Net: Name=NetJ4_5
+Added Pin To Net: NetName=NetJ4_6 Pin=J4-6
+Added Net: Name=NetJ4_6
+Added Pin To Net: NetName=NetJ4_17 Pin=J4-17
+Added Net: Name=NetJ4_17
+Added Pin To Net: NetName=NetJ4_18 Pin=J4-18
+Added Net: Name=NetJ4_18
+Added Pin To Net: NetName=NetJ4_38 Pin=J4-38
+Added Net: Name=NetJ4_38
+Added Pin To Net: NetName=NetJ4_39 Pin=J4-39
+Added Net: Name=NetJ4_39
+Added Pin To Net: NetName=NetJ4_40 Pin=J4-40
+Added Net: Name=NetJ4_40
+Added Pin To Net: NetName=NetJ4_41 Pin=J4-41
+Added Net: Name=NetJ4_41
+Added Pin To Net: NetName=NetJ4_42 Pin=J4-42
+Added Net: Name=NetJ4_42
+Added Pin To Net: NetName=NetJ4_43 Pin=J4-43
+Added Net: Name=NetJ4_43
+Added Pin To Net: NetName=NetJ4_44 Pin=J4-44
+Added Net: Name=NetJ4_44
+Added Pin To Net: NetName=NetJ4_45 Pin=J4-45
+Added Net: Name=NetJ4_45
+Added Pin To Net: NetName=NetJ4_46 Pin=J4-46
+Added Net: Name=NetJ4_46
+Added Pin To Net: NetName=NetJ4_47 Pin=J4-47
+Added Net: Name=NetJ4_47
+Added Pin To Net: NetName=NetJ4_67 Pin=J4-67
+Added Net: Name=NetJ4_67
+Added Pin To Net: NetName=NetJ4_68 Pin=J4-68
+Added Net: Name=NetJ4_68
+Added Pin To Net: NetName=NetJ4_70 Pin=J4-70
+Added Net: Name=NetJ4_70
+Added Pin To Net: NetName=NetJ4_71 Pin=J4-71
+Added Net: Name=NetJ4_71
+Added Pin To Net: NetName=NetJ4_72 Pin=J4-72
+Added Net: Name=NetJ4_72
+Added Pin To Net: NetName=TELEM1_CTS Pin=J4-58
+Added Net: Name=TELEM1_CTS
+Added Pin To Net: NetName=TELEM1_RTS Pin=J4-59
+Added Net: Name=TELEM1_RTS
+Added Pin To Net: NetName=TELEM1_RX Pin=J4-60
+Added Net: Name=TELEM1_RX
+Added Pin To Net: NetName=TELEM1_TX Pin=J4-61
+Added Net: Name=TELEM1_TX
+Add Differential Pair: Number of nets in differential pair PA11 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair PA12 is 1 instead of 2
+Added Rule: Name=Schematic Supply Nets_9

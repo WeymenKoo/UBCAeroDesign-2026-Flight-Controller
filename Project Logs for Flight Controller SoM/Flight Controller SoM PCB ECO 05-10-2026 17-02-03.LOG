@@ -1,0 +1,66 @@
+Added Component: Designator=C54(CAPC1005X05N)
+Add component (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C55(CAPC1005X05N)
+Add component (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C56(CAPC1005X05N)
+Add component (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C57(CAPC1005X05N)
+Add component (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3LDO Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C44-2
+Added Pin To Net: NetName=+3V3LDO Pin=C45-1
+Added Pin To Net: NetName=GND Pin=C45-2
+Added Pin To Net: NetName=+3V3LDO Pin=C54-1
+Added Pin To Net: NetName=GND Pin=C54-2
+Added Pin To Net: NetName=+3V3LDO Pin=C55-1
+Added Pin To Net: NetName=GND Pin=C55-2
+Added Pin To Net: NetName=+3V3LDO Pin=C56-1
+Added Pin To Net: NetName=GND Pin=C56-2
+Added Pin To Net: NetName=+3V3LDO Pin=C57-1
+Added Pin To Net: NetName=GND Pin=C57-2
+Added Pin To Net: NetName=+3V3LDO Pin=R22-2
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=+3V3LDO Pin=U2-5
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=+3V3LDO Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U4-6
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=+3V3LDO Pin=U4-9
+Added Pin To Net: NetName=+3V3LDO Pin=U4-10
+Added Pin To Net: NetName=IMU1_CS Pin=R22-1
+Added Pin To Net: NetName=IMU1_CS Pin=U2-12
+Added Net: Name=IMU1_CS
+Added Pin To Net: NetName=IMU1_INT1 Pin=U2-4
+Added Net: Name=IMU1_INT1
+Added Pin To Net: NetName=IMU1_MISO Pin=U2-1
+Added Net: Name=IMU1_MISO
+Added Pin To Net: NetName=IMU1_MOSI Pin=U2-14
+Added Net: Name=IMU1_MOSI
+Added Pin To Net: NetName=IMU1_SCK Pin=U2-13
+Added Net: Name=IMU1_SCK
+Added Member To Class: ClassName=U_Sensor_LSM6DSV32X Member=Component C54 1u
+Added Member To Class: ClassName=U_Sensor_LIS2MDL Member=Component C55 1u
+Added Member To Class: ClassName=U_Sensor_LIS2MDL Member=Component C56 100n
+Added Member To Class: ClassName=U_Sensor_LIS2MDL Member=Component C57 100n

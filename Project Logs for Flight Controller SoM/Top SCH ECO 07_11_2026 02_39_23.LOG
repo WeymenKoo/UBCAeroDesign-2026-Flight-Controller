@@ -1,0 +1,19 @@
+Remove Pin=U1B-U9 From Net=EEPROM_WC
+Change Component Footprint: Designator=C63 Old Footprint=CAPC1005X05N New Footprint=CAPC1608X08N
+Change Component Footprint: Designator=C64 Old Footprint=CAPC1005X05N New Footprint=CAPC1608X08N
+Change Component Footprint: Designator=C65 Old Footprint=CAPC1005X05N New Footprint=CAPC1608X08N
+Change Component Footprint: Designator=C66 Old Footprint=CAPC1005X05N New Footprint=CAPC1608X08N
+Change Component Footprint: Designator=C62 Old Footprint=CAPC1005X05N New Footprint=CAPC2012X12N
+Change Component Footprint: Designator=U15 Old Footprint=FP-DBV0005A-MFG New Footprint=FP-DBV0005A-IPC_B
+Change Component Comment: Designator=C62 Old Comment==Value New Comment=1 uF
+Change Component Comment: Designator=C63 Old Comment==Value New Comment=1 uF
+Change Component Comment: Designator=C64 Old Comment==Value New Comment=10 uF
+Change Component Comment: Designator=C65 Old Comment==Value New Comment=10 uF
+Change Component Comment: Designator=C66 Old Comment==Value New Comment=22 uF
+Change Component Comment: Designator=R27 Old Comment==Value New Comment=107k
+Change Component Comment: Designator=U15 Old Comment=TLV62569DBVR New Comment=TLV62565DBVR
+Add Pin To Net: Pin=J3A-3 Old Net=NRST New Net=nRST
+Change Net Color : Net Name= +5V_EFUSE Old Net Color=Red New Net Color=ActiveCaptionText
+Change Net Color : Net Name= +VMUX Old Net Color=Red New Net Color=ActiveCaptionText
+Change Pin Designator/Name:  Old Designator=R19-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R19-2 Old Name=2 New Designator =1 New Name=1

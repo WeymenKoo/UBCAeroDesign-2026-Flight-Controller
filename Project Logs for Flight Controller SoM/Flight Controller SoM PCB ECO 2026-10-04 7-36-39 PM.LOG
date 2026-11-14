@@ -1,0 +1,97 @@
+Added Component: Designator=C48(CAPC1005X05N)
+Add component (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C49(CAPC1005X05N)
+Add component (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R17(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R18(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R19(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R20(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=U8(XCVR_TCAN3414DRBR)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TCAN3414DRBR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TCAN3414DRBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TCAN3414DRBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TCAN3414DRBR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "TCAN3414DRBR.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U9(XCVR_TCAN3414DRBR)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TCAN3414DRBR/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TCAN3414DRBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TCAN3414DRBR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TCAN3414DRBR/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "TCAN3414DRBR.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+D3V3 Pin=C48-1
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=+D3V3 Pin=C49-1
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=GND Pin=R19-1
+Added Pin To Net: NetName=GND Pin=R20-1
+Added Pin To Net: NetName=GND Pin=U8-2
+Added Pin To Net: NetName=+D3V3 Pin=U8-3
+Added Pin To Net: NetName=GND Pin=U8-9
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=+D3V3 Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U9-9
+Added Pin To Net: NetName=CAN1_N Pin=U8-6
+Added Net: Name=CAN1_N
+Added Pin To Net: NetName=CAN1_P Pin=U8-7
+Added Net: Name=CAN1_P
+Added Pin To Net: NetName=CAN1_RX Pin=U8-4
+Added Net: Name=CAN1_RX
+Added Pin To Net: NetName=CAN1_SHDN Pin=R17-2
+Added Pin To Net: NetName=CAN1_SHDN Pin=U8-5
+Added Net: Name=CAN1_SHDN
+Added Pin To Net: NetName=CAN1_STB Pin=R18-2
+Added Pin To Net: NetName=CAN1_STB Pin=U8-8
+Added Net: Name=CAN1_STB
+Added Pin To Net: NetName=CAN1_TX Pin=U8-1
+Added Net: Name=CAN1_TX
+Added Pin To Net: NetName=CAN2_N Pin=U9-6
+Added Net: Name=CAN2_N
+Added Pin To Net: NetName=CAN2_P Pin=U9-7
+Added Net: Name=CAN2_P
+Added Pin To Net: NetName=CAN2_RX Pin=U9-4
+Added Net: Name=CAN2_RX
+Added Pin To Net: NetName=CAN2_SHDN Pin=R19-2
+Added Pin To Net: NetName=CAN2_SHDN Pin=U9-5
+Added Net: Name=CAN2_SHDN
+Added Pin To Net: NetName=CAN2_STB Pin=R20-2
+Added Pin To Net: NetName=CAN2_STB Pin=U9-8
+Added Net: Name=CAN2_STB
+Added Pin To Net: NetName=CAN2_TX Pin=U9-1
+Added Net: Name=CAN2_TX
+Added Class: Name=Comms_CAN_Tranceiver
+Added Differential Pair: Name=CAN1
+Added Differential Pair: Name=CAN2

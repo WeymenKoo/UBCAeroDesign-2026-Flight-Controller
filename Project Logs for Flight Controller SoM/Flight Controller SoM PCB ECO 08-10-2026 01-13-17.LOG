@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=PG9 Pin=R1-1
+Removed Pin From Net: NetName=DEBUG_RX Pin=U1-D13
+Removed Pin From Net: NetName=GPS1_RX Pin=U1-D14
+Removed Pin From Net: NetName=GPS1_TX Pin=U1-D15
+Removed Pin From Net: NetName=DEBUG_TX Pin=U1-E12
+Removed Pin From Net: NetName=COMP_RX Pin=U1-F13
+Removed Pin From Net: NetName=COMP_TX Pin=U1-F14
+Removed Pin From Net: NetName=ELRS_RX Pin=U1-T17
+Removed Pin From Net: NetName=ELRS_TX Pin=U1-U16
+Removed Pin From Net: NetName=PG9 Pin=U5-4
+Added Pin To Net: NetName=DEBUG_TX Pin=U1-D13
+Added Pin To Net: NetName=GPS1_TX Pin=U1-D14
+Added Pin To Net: NetName=GPS1_RX Pin=U1-D15
+Added Pin To Net: NetName=DEBUG_RX Pin=U1-E12
+Added Pin To Net: NetName=COMP_TX Pin=U1-F13
+Added Pin To Net: NetName=COMP_RX Pin=U1-F14
+Added Pin To Net: NetName=IMU1_INT1 Pin=U1-R6
+Added Pin To Net: NetName=ELRS_TX Pin=U1-T17
+Added Pin To Net: NetName=ELRS_RX Pin=U1-U16
+Added Pin To Net: NetName=SD_EN Pin=R1-1
+Added Pin To Net: NetName=SD_EN Pin=U5-4
+Added Net: Name=SD_EN
+Add Differential Pair: Number of nets in differential pair PA11 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair PA12 is 1 instead of 2

@@ -1,0 +1,7 @@
+Change Class Name : Old Net Name=Comms_CAN_Tranceiver New Net Name=U_Comms_CAN_Tranceiver
+Change Class Name : Old Net Name=MCU_Power New Net Name=U_MCU_Power
+Change Class Name : Old Net Name=Memory_EEPROM New Net Name=U_Memory_EEPROM
+Change Class Name : Old Net Name=Memory_FRAM New Net Name=U_Memory_FRAM
+Change Class Name : Old Net Name=Memory_microSD New Net Name=U_Memory_microSD
+Change Class Name : Old Net Name=Sensor_DPS368 New Net Name=U_Sensor_DPS368
+Added Member To Class: ClassName=U_MCU_Power Member=Component U1 MCU_STM32H757XIH6

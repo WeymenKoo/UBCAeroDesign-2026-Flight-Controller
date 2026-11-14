@@ -1,0 +1,3 @@
+Remove Pin=U1D-J2 From Net=PH0-OSC_IN
+Change Net Color : Net Name= +D3V3 Old Net Color=#FF9900 New Net Color=ActiveCaptionText
+Change Net Color : Net Name= VCAPDSI Old Net Color=#4A86E8 New Net Color=ActiveCaptionText

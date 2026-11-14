@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=PD6 Pin=J4-60
+Removed Pin From Net: NetName=PD5 Pin=J4-61
+Added Pin To Net: NetName=PD5 Pin=J4-60
+Added Pin To Net: NetName=PD6 Pin=J4-61
+Change Class Name : Old Net Name=FMU_CH[16..1] New Net Name=FMU_CH[1..16]
+Change Class Name : Old Net Name=J1_GPIO[6..1] New Net Name=J1_GPIO[1..6]
+Change Class Name : Old Net Name=PAY_AN[16..1] New Net Name=PAY_AN[1..16]
+Change Class Name : Old Net Name=PAY_IO[17..1] New Net Name=PAY_IO[1..17]
+Added Class: Name=N000-1_[17..1]
+Added Class: Name=N000-2_[16..1]
+Added Class: Name=N000-3_[16..1]
+Added Class: Name=N000-4_[6..1]

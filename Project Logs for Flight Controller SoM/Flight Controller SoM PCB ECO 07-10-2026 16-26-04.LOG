@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=LED2 Pin=U1-H16
+Added Pin To Net: NetName=LED1 Pin=U1-H17
+Added Pin To Net: NetName=EEPROM_SCL Pin=U1-P8
+Added Pin To Net: NetName=BARO1_MISO Pin=U1-R3
+Added Pin To Net: NetName=BARO1_MOSI Pin=U1-R5
+Added Pin To Net: NetName=EEPROM_SDA Pin=U1-R9
+Added Pin To Net: NetName=BARO1_SCK Pin=U1-T3
+Added Pin To Net: NetName=BARO1_CS Pin=U1-U7
+Add Differential Pair: Net(s) Not Found in Differential Pair USBD : Positive Net [USBD_P] & Negative Net [USBD_N] in current PCB document

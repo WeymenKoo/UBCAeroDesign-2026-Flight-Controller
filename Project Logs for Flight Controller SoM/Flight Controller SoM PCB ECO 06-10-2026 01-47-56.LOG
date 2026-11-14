@@ -1,0 +1,47 @@
+Added Component: Designator=D1(LED_0603_YELLOW)
+Add component (AddParameter): Name = "Color"; Value = "Yellow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "LED_YELLOW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CASE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "CRLS Lib.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=D2(LED_0603_YELLOW)
+Add component (AddParameter): Name = "Color"; Value = "Yellow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "LED_YELLOW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CASE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "CRLS Lib.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=D3(LED_0603_YELLOW)
+Add component (AddParameter): Name = "Color"; Value = "Yellow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "LED_YELLOW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CASE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "CRLS Lib.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=R23(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2k"; VariantName = "[No Variations]"
+Added Component: Designator=R24(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2k"; VariantName = "[No Variations]"
+Added Component: Designator=R25(IPC C R0402 NO SILK)
+Add component (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=+D3V3 Pin=R23-2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R23-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R24-1
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=R25-1
+Added Net: Name=NetD3_2
+Added Class: Name=U_Button_and_LEDs

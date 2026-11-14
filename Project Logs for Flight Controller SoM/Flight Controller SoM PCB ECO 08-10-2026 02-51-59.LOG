@@ -1,0 +1,18 @@
+Added Pin To Net: NetName=GND Pin=U10-6
+Added Pin To Net: NetName=IMU2_CS Pin=U1-U8
+Added Pin To Net: NetName=IMU2_CS Pin=U10-12
+Added Net: Name=IMU2_CS
+Added Pin To Net: NetName=IMU2_INT1 Pin=U1-P6
+Added Pin To Net: NetName=IMU2_INT1 Pin=U10-4
+Added Net: Name=IMU2_INT1
+Added Pin To Net: NetName=IMU2_MISO Pin=U1-K4
+Added Pin To Net: NetName=IMU2_MISO Pin=U10-1
+Added Net: Name=IMU2_MISO
+Added Pin To Net: NetName=IMU2_MOSI Pin=U1-L4
+Added Pin To Net: NetName=IMU2_MOSI Pin=U10-14
+Added Net: Name=IMU2_MOSI
+Added Pin To Net: NetName=IMU2_SCK Pin=U1-T11
+Added Pin To Net: NetName=IMU2_SCK Pin=U10-13
+Added Net: Name=IMU2_SCK
+Add Differential Pair: Number of nets in differential pair PA11 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair PA12 is 1 instead of 2

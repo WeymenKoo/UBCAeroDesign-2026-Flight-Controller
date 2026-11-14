@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=U_MCU_Power Member=C?
+Change Component DesignItemId : Designator=U6 Old DesignItemId=CMP-029-000014-4 New DesignItemId=CMP-029-000014-5
+Change Component DesignItemId : Designator=U7 Old DesignItemId=CMP-057-000000-4 New DesignItemId=CMP-057-000000-5
+Change Component Footprint: Designator=U7 Old Footprint=SOIC127P600X175-8N New Footprint=SOIC127P600X175-8N
+Change Component Footprint: Designator=U6 Old Footprint=SOIC127P602X173-8N-1-V New Footprint=SOIC127P602X173-8N-1-V
+Change Managed Component Library Link : Designator=U6 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=2C1F800D-2E5D-4DC9-81A6-527AE22F74B9 New ItemGUID=2C1F800D-2E5D-4DC9-81A6-527AE22F74B9 Old RevisionGUID=5af52cc6-014f-47be-92b4-bc549190f64a New RevisionGUID=abce8001-5e59-4931-8169-ecd838b93ee6
+Change Managed Component Library Link : Designator=U7 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=707345F4-A8FE-4C28-A678-1F3C969029A4 New ItemGUID=707345F4-A8FE-4C28-A678-1F3C969029A4 Old RevisionGUID=5dc55269-c907-4d60-945a-9c2d23a3152b New RevisionGUID=4c2f37f8-adef-435a-9c26-81b60eb32c28

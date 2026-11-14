@@ -1,0 +1,36 @@
+Added Pin To Net: NetName=FMU_CH8 Pin=J4-34
+Added Pin To Net: NetName=GPS2_RX Pin=J4-54
+Added Pin To Net: NetName=PD3 Pin=J4-58
+Added Pin To Net: NetName=PD4 Pin=J4-59
+Added Pin To Net: NetName=PD6 Pin=J4-60
+Added Pin To Net: NetName=PD5 Pin=J4-61
+Added Pin To Net: NetName=FMU_CH16 Pin=U1-A16
+Added Pin To Net: NetName=FMU_CH12 Pin=U1-B15
+Added Pin To Net: NetName=DEBUG_RX Pin=U1-D13
+Added Pin To Net: NetName=GPS1_RX Pin=U1-D14
+Added Pin To Net: NetName=GPS1_TX Pin=U1-D15
+Added Pin To Net: NetName=DEBUG_TX Pin=U1-E12
+Added Pin To Net: NetName=GPS2_RX Pin=U1-E15
+Added Pin To Net: NetName=COMP_RX Pin=U1-F13
+Added Pin To Net: NetName=COMP_TX Pin=U1-F14
+Added Pin To Net: NetName=FMU_CH11 Pin=U1-J14
+Added Pin To Net: NetName=FMU_CH10 Pin=U1-N15
+Added Pin To Net: NetName=FMU_CH5 Pin=U1-P9
+Added Pin To Net: NetName=FMU_CH6 Pin=U1-P10
+Added Pin To Net: NetName=I2C_AIR_SCL Pin=U1-P11
+Added Pin To Net: NetName=I2C_AIR_SDA Pin=U1-P12
+Added Pin To Net: NetName=FMU_CH13 Pin=U1-P13
+Added Pin To Net: NetName=FMU_CH14 Pin=U1-P14
+Added Pin To Net: NetName=FMU_CH4 Pin=U1-P15
+Added Pin To Net: NetName=FMU_CH3 Pin=U1-P16
+Added Pin To Net: NetName=FMU_CH15 Pin=U1-R14
+Added Pin To Net: NetName=FMU_CH1 Pin=U1-R16
+Added Pin To Net: NetName=FMU_CH2 Pin=U1-R17
+Added Pin To Net: NetName=FMU_CH7 Pin=U1-T10
+Added Pin To Net: NetName=I2C_GNSS_SDA Pin=U1-T13
+Added Pin To Net: NetName=ELRS_RX Pin=U1-T17
+Added Pin To Net: NetName=FMU_CH8 Pin=U1-U10
+Added Pin To Net: NetName=I2C_GNSS_SCL Pin=U1-U13
+Added Pin To Net: NetName=ELRS_TX Pin=U1-U16
+Add Differential Pair: Number of nets in differential pair PA11 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair PA12 is 1 instead of 2

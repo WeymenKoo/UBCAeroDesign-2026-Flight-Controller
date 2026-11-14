@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VCORE Pin=TP1-1
+Removed Member From Class: ClassName=U_MCU_Power Member=TP1

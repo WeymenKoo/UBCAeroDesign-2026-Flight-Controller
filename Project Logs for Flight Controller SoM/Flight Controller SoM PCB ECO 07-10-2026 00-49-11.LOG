@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=PC8 Pin=U1-E13
+Added Net: Name=PC8
+Added Pin To Net: NetName=PC9 Pin=U1-E14
+Added Net: Name=PC9
+Added Pin To Net: NetName=PC10 Pin=U1-A13
+Added Net: Name=PC10
+Added Pin To Net: NetName=PC11 Pin=U1-B13
+Added Net: Name=PC11
+Added Pin To Net: NetName=PC12 Pin=U1-C12
+Added Net: Name=PC12
+Added Pin To Net: NetName=PD2 Pin=U1-D12
+Added Net: Name=PD2
+Added Pin To Net: NetName=PJ15 Pin=U1-B10
+Added Net: Name=PJ15

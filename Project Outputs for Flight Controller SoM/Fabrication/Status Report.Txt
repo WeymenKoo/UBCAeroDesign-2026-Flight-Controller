@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Flight Controller SoM.PcbDoc]
+   Generated File[Flight Controller SoM-RoundHoles-Plated.TXT]
+   Generated File[Flight Controller SoM-RoundHoles-NonPlated.TXT]
+   Generated File[Flight Controller SoM-SlotHoles-Plated.TXT]
+   Generated File[Flight Controller SoM.LDP]
+   Generated File[Flight Controller SoM.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 12:13:52 AM On 11/14/2026

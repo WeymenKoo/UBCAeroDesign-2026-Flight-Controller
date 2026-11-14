@@ -1,0 +1,10 @@
+Change Component Comment : Designator=U3 Old Comment=BARO_DPS368XTSA1 New Comment=DPS368XTSA1
+Change Component Comment : Designator=U2 Old Comment=IMU_LSM6DSV32X New Comment=LSM6DSV32XTR
+Change Component Comment : Designator=D1 Old Comment=LED_YELLOW New Comment=C165983
+Change Component Comment : Designator=D2 Old Comment=LED_YELLOW New Comment=C165983
+Change Component Comment : Designator=D3 Old Comment=LED_YELLOW New Comment=C165983
+Change Component Comment : Designator=U1 Old Comment=MCU_STM32H757XIH6 New Comment=STM32H757XIH6
+Change Component Kind : Designator=MH1 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=MH2 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=MH3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=MH4 Old Kind=Standard New Kind=Standard (No BOM)

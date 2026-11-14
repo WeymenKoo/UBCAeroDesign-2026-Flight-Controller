@@ -1,0 +1,22 @@
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=GND Pin=J4-9
+Added Pin To Net: NetName=GND Pin=J4-12
+Added Pin To Net: NetName=GND Pin=J4-15
+Added Pin To Net: NetName=GND Pin=J4-23
+Added Pin To Net: NetName=GND Pin=J4-29
+Added Pin To Net: NetName=GND Pin=J4-34
+Added Pin To Net: NetName=GND Pin=J4-41
+Added Pin To Net: NetName=GND Pin=J4-44
+Added Pin To Net: NetName=GND Pin=J4-47
+Added Pin To Net: NetName=GND Pin=J4-52
+Added Pin To Net: NetName=GND Pin=J4-55
+Added Pin To Net: NetName=GND Pin=J4-58
+Added Pin To Net: NetName=GND Pin=J4-62
+Added Pin To Net: NetName=GND Pin=J4-76
+Added Pin To Net: NetName=+5V_CARRIER Pin=J4-77
+Added Pin To Net: NetName=+5V_CARRIER Pin=J4-78
+Added Pin To Net: NetName=+5V_CARRIER Pin=J4-79
+Added Pin To Net: NetName=+5V_CARRIER Pin=J4-80
+Added Net: Name=+5V_CARRIER
+Added Rule: Name=Schematic Supply Nets_7

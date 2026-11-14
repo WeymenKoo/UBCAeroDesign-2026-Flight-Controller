@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Flight Controller SoM.PrjPcb]
+   Generated File[Bill of Materials-Flight Controller SoM.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:13:55 AM On 11/14/2026

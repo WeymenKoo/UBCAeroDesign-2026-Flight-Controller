@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=J1 Old DesignItemId=CMP-031-000001-5 New DesignItemId=CMP-031-000001-6
+Change Component DesignItemId : Designator=U8 Old DesignItemId=CMP-322-000000-1 New DesignItemId=CMP-322-000000-2
+Change Component DesignItemId : Designator=U9 Old DesignItemId=CMP-322-000000-1 New DesignItemId=CMP-322-000000-2
+Change Component Footprint: Designator=J1 Old Footprint=FP-DM3AT-SF-PEJM5-MFG New Footprint=FP-DM3AT-SF-PEJM5-MFG
+Change Component Footprint: Designator=U8 Old Footprint=XCVR_TCAN3414DRBR New Footprint=XCVR_TCAN3414DRBR
+Change Component Footprint: Designator=U9 Old Footprint=XCVR_TCAN3414DRBR New Footprint=XCVR_TCAN3414DRBR
+Change Managed Component Library Link : Designator=J1 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=5938f6ff-109b-43be-9e23-27eb31f9325b New ItemGUID=5938f6ff-109b-43be-9e23-27eb31f9325b Old RevisionGUID=a4cae01a-530b-4809-926f-84908fa2a420 New RevisionGUID=151b1b21-7d3a-4a7d-b8da-4771e8768db4
+Change Managed Component Library Link : Designator=U8 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=63FC8CE4-AB03-45D1-9FBF-F2C3BBF724F9 New ItemGUID=63FC8CE4-AB03-45D1-9FBF-F2C3BBF724F9 Old RevisionGUID=A065CF1E-6933-4030-8AEA-990ECE447049 New RevisionGUID=2da4b543-a37b-407c-bfbd-b4725c5961f4
+Change Managed Component Library Link : Designator=U9 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=63FC8CE4-AB03-45D1-9FBF-F2C3BBF724F9 New ItemGUID=63FC8CE4-AB03-45D1-9FBF-F2C3BBF724F9 Old RevisionGUID=A065CF1E-6933-4030-8AEA-990ECE447049 New RevisionGUID=2da4b543-a37b-407c-bfbd-b4725c5961f4

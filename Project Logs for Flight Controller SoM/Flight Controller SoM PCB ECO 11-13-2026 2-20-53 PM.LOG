@@ -1,0 +1,209 @@
+Change Component Comment : Designator=R23 Old Comment=2k2 New Comment=1k
+Change Component Comment : Designator=R24 Old Comment=2k2 New Comment=1k
+Change Component Comment : Designator=R25 Old Comment=2k2 New Comment=1k
+Change Component Comment : Designator=R19 Old Comment=2k2 New Comment=3k
+Change Component Comment : Designator=R48 Old Comment=10k New Comment=15k
+Change Component Description : Designator=U2 Old Description=-40?~+85? 1.71V~3.6V 3uA 4.5KB IMU (accelerometer + gyroscope) Motion event detection?Synchronization and timestamp SPI?I2C?I3C X,Y,Z X,Y,Z ±32g ±4000dps LGA-14(2.5x3) Accelerometers ROHS New Description=IMU, 6-axis, +/-32 g, +/-4000 dps, SPI/I2C, LGA-14
+Change Component Description : Designator=U13 Old Description=1.6-V to 5.5-V, 40-mâ„ New Description=Power mux, 1.6 V to 5.5 V, 2.5 A, priority select
+Change Component Description : Designator=C29 Old Description=2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 2u2 6.3V X5R 20% 0402
+Change Component Description : Designator=C31 Old Description=2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 2u2 6.3V X5R 20% 0402
+Change Component Description : Designator=C32 Old Description=2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 2u2 6.3V X5R 20% 0402
+Change Component Description : Designator=U14 Old Description=2.7-V to 23-V, 28-mâ„ New Description=eFuse, 2.7 V to 23 V, 5.5 A, reverse current blocking
+Change Component Description : Designator=U6 Old Description=4-Kbit (512 × 8) Serial (SPI) F-RAM New Description=F-RAM, 256-Kbit (32K x 8), SPI, SOIC-8
+Change Component Description : Designator=C24 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C34 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C41 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C42 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C54 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C58 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C59 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C60 Old Description=10V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C1 Old Description=10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 4u7 10V X5R 20% 0402
+Change Component Description : Designator=C12 Old Description=10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS New Description=CAP 4u7 10V X5R 20% 0402
+Change Component Description : Designator=U15 Old Description=17V Clamp 5A _8/20Âµs_ Ipp Tvs Diode Surface Mount SOT-666 New Description=ESD protection, 2 data lines and VBUS, SOT-666
+Change Component Description : Designator=X1 Old Description=Crystal Type:SMD Crystal Resonator Frequency: Frequency Tolerance:±10ppm Frequency Tolerance:±10ppm Frequency Stability:±30ppm Frequency Stability:±30ppm Load Capacitance: Operating Temperature: Operating Temperature: New Description=Crystal, 25 MHz, 10 ppm, 3225
+Change Component Description : Designator=C38 Old Description=FH 0402CG150J500NT (C1548) New Description=CAP 15p 50V C0G 5% 0402
+Change Component Description : Designator=C39 Old Description=FH 0402CG150J500NT (C1548) New Description=CAP 15p 50V C0G 5% 0402
+Change Component Description : Designator=C57 Old Description=Generic CAP 0402 New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C63 Old Description=Generic CAP 0402 New Description=CAP 1u 25V X5R 10% 0402
+Change Component Description : Designator=C70 Old Description=Generic CAP 0402 New Description=CAP 2u2 6.3V X5R 20% 0402
+Change Component Description : Designator=C71 Old Description=Generic CAP 0402 New Description=CAP 10n 50V X7R 10% 0402
+Change Component Description : Designator=C77 Old Description=Generic CAP 0402 New Description=CAP 10n 50V X7R 10% 0402
+Change Component Description : Designator=C61 Old Description=Generic CAP 0402 New Description=CAP 22n 50V X7R 10% 0402
+Change Component Description : Designator=C2 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C3 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C4 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C5 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C6 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C7 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C8 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C9 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C10 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C11 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C13 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C14 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C15 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C16 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C17 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C18 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C19 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C20 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C21 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C22 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C25 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C26 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C27 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C28 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C30 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C33 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C35 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C36 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C37 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C43 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C44 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C45 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C46 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C47 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C48 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C49 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C50 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C51 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C53 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C55 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C68 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C69 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C72 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C73 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C74 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C75 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C76 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C78 Old Description=Generic CAP 0402 New Description=CAP 100n 16V X7R 10% 0402
+Change Component Description : Designator=C56 Old Description=Generic CAP 0402 New Description=CAP 220n 16V X7R 10% 0402
+Change Component Description : Designator=C40 Old Description=Generic CAP 0402 New Description=CAP 220p 50V X7R 10% 0402
+Change Component Description : Designator=C23 Old Description=Generic CAP 0603 New Description=CAP 10u 10V X5R 10% 0603
+Change Component Description : Designator=C52 Old Description=Generic CAP 0603 New Description=CAP 10u 10V X5R 10% 0603
+Change Component Description : Designator=C64 Old Description=Generic CAP 0603 New Description=CAP 10u 25V X5R 20% 0603
+Change Component Description : Designator=C66 Old Description=Generic CAP 0603 New Description=CAP 22u 6.3V X5R 20% 0603
+Change Component Description : Designator=R1 Old Description=Generic RES 0402 New Description=RES 0R 1% 1/16W 0402
+Change Component Description : Designator=R10 Old Description=Generic RES 0402 New Description=RES 0R 1% 1/16W 0402
+Change Component Description : Designator=R23 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R24 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R25 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R42 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R43 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R44 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R45 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R46 Old Description=Generic RES 0402 New Description=RES 1k 1% 1/16W 0402
+Change Component Description : Designator=R15 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R16 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R35 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R36 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R37 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R38 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R39 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R40 Old Description=Generic RES 0402 New Description=RES 2k2 1% 1/16W 0402
+Change Component Description : Designator=R19 Old Description=Generic RES 0402 New Description=RES 3k 1% 1/16W 0402
+Change Component Description : Designator=R31 Old Description=Generic RES 0402 New Description=RES 5k1 1% 1/16W 0402
+Change Component Description : Designator=R32 Old Description=Generic RES 0402 New Description=RES 5k1 1% 1/16W 0402
+Change Component Description : Designator=R2 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R3 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R4 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R5 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R6 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R7 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R8 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R11 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R12 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R13 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R14 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R21 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R22 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R33 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R34 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R41 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R47 Old Description=Generic RES 0402 New Description=RES 10k 1% 1/16W 0402
+Change Component Description : Designator=R48 Old Description=Generic RES 0402 New Description=RES 15k 1% 1/16W 0402
+Change Component Description : Designator=R9 Old Description=Generic RES 0402 New Description=RES 22R 1% 1/16W 0402
+Change Component Description : Designator=R20 Old Description=Generic RES 0402 New Description=RES 38k3 1% 1/16W 0402
+Change Component Description : Designator=R26 Old Description=Generic RES 0402 New Description=RES 100k 1% 1/16W 0402
+Change Component Description : Designator=R29 Old Description=Generic RES 0402 New Description=RES 100k 1% 1/16W 0402
+Change Component Description : Designator=R27 Old Description=Generic RES 0402 New Description=RES 105k 1% 1/16W 0402
+Change Component Description : Designator=R18 Old Description=Generic RES 0402 New Description=RES 300k 1% 1/16W 0402
+Change Component Description : Designator=R17 Old Description=Generic RES 0402 New Description=RES 357k 1% 1/16W 0402
+Change Component Description : Designator=R28 Old Description=Generic RES 0402 New Description=RES 453k 1% 1/16W 0402
+Change component parameters: Designator = "C40" ("C40"); Footprint = "CAPC1005X05N"; UniqueID = "\VIGXUZGR\TFZVCEET" ("\VIGXUZGR\TFZVCEET")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C1530"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "FH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402B221K500NT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220p"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\GQZHONUG\YQKGACSX" ("\GQZHONUG\YQKGACSX")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C25784"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF3001TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23" ("R23"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\XQREXDBQ\PPCOHFRM" ("\XQREXDBQ\PPCOHFRM")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C11702"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF1001TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24" ("R24"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\XQREXDBQ\NDONMVPU" ("\XQREXDBQ\NDONMVPU")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C11702"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF1001TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25" ("R25"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\XQREXDBQ\YUHSGCVP" ("\XQREXDBQ\YUHSGCVP")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C11702"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF1001TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R48" ("R48"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\PMNOBVRC\VKOCSWLO" ("\PMNOBVRC\VKOCSWLO")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C25756"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF1502TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "15k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C64" ("C64"); Footprint = "CAPC1608X08N"; UniqueID = "\GQZHONUG\YSZEYGNM" ("\GQZHONUG\YSZEYGNM")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C96446"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL10A106MA8NRNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10u"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
