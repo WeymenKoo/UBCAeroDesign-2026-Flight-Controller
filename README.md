@@ -111,8 +111,7 @@ ArduPilot board definition files (`hwdef.dat`, `hwdef-bl.dat`) are drafted and p
 
 ## Manufacturing (JLCPCB)
 
-> [!WARNING]
-> The Gerber/drill zip and the schematic PDF were exported before the last board change on 14 Nov 2026 (22 test pads added, DBG2 moved to ball H17). Re-export them from Altium before ordering (steps below). The BOM and CPL already match the current board.
+These files were exported on 15 Nov 2026 from the final board and checked against the PCB file. Every pad, track and via in the PCB is in the Gerbers, and the BOM and CPL list the same 150 parts.
 
 | File | Upload as |
 |---|---|
@@ -132,18 +131,19 @@ ArduPilot board definition files (`hwdef.dat`, `hwdef-bl.dat`) are drafted and p
 | Assembly | Standard PCBA, both sides. The board is under 70 × 70 mm, so JLCPCB adds 5 mm edge rails. |
 | Inspection | X-ray for the BGA |
 
-After uploading the BOM, 21 lines have no LCSC number: ICs, connectors, inductors, switches and R18. Their Comment column holds the exact manufacturer part number, so match them in JLCPCB's BOM tool. Then check every rotation in the placement preview, particularly U1, J1, J2, J4 and J5.
+After uploading the BOM, 22 lines have no LCSC number: ICs, connectors, inductors, switches, R18 and R27. Their Comment column holds the exact manufacturer part number, so match them in JLCPCB's BOM tool. Then check every rotation in the placement preview, particularly U1, J1, J2, J4 and J5.
 
 ### Re-exporting from Altium
-1. Open `altium/Flight Controller SoM.PrjPcb`. Set `LCSC Part #` on R1 to C25077, R20 to C122548 and R27 to C138065, and on R18 to a 249 kΩ 1 % 0402 part (0402WGF2493TCE). These four still carry the LCSC numbers of their old values, which would bring back the old power-path behaviour.
-2. Run `FC_SoM_Release.OutJob`. Altium writes into a `Project Outputs for Flight Controller SoM/` folder, which git ignores.
-3. Zip the 15 Gerber files and the 3 drill `.TXT` files into `jlcpcb/FC_SoM_RevA_Gerbers.zip`. Copy the schematic PDF to the repo root and the STEP model to `mechanical/FC_SoM_RevA.step`.
-4. If a part moved, rebuild the CPL from Altium's pick-and-place with the columns Designator, Mid X, Mid Y, Layer (Top/Bottom) and Rotation. Altium's own BOM export merges different values into one line per footprint, so keep the JLCPCB BOM in sync by hand.
+1. Open `altium/Flight Controller SoM.PrjPcb` and run `FC_SoM_Release.OutJob`. Altium writes into a `Project Outputs for Flight Controller SoM/` folder, which git ignores.
+2. Zip the 15 Gerber files and the 3 drill `.TXT` files into `jlcpcb/FC_SoM_RevA_Gerbers.zip`. Copy the schematic PDF to the repo root and the STEP model to `mechanical/FC_SoM_RevA.step`.
+3. If a part moved, rebuild the CPL from Altium's pick-and-place with the columns Designator, Mid X, Mid Y, Layer (Top/Bottom) and Rotation. Altium's own BOM export merges different values into one line per footprint, so the JLCPCB BOM is kept by hand.
+
+In Altium, `LCSC Part #` on R1, R18, R20 and R27 still points at the parts for their old values. The JLCPCB BOM here is correct; fix those four parameters before building a BOM from Altium.
 
 ## Repository layout
 
 ```
-FC_SoM_RevA_Schematic.pdf   Schematic, 23 pages
+FC_SoM_RevA_Schematic.pdf   Schematic (18 sheets) and PCB layer prints, 23 pages
 jlcpcb/                     Gerber and drill zip, BOM, CPL: the JLCPCB upload set
 mechanical/                 STEP model of the assembled board
 altium/                     Altium Designer project: schematic sheets, PCB, ActiveBOM, OutJob
@@ -152,7 +152,7 @@ renders/                    Product renders
 
 ## Status
 
-Rev A. Design complete and Altium DRC clean (0 violations, 14 Nov 2026). Not yet fabricated or tested.
+Rev A. Design complete. Altium DRC clean (0 violations, 14 Nov 2026); the only later edits were part parameters, net colours and silkscreen. Manufacturing files exported 15 Nov 2026. Not yet fabricated or tested.
 
 ## Authors
 
