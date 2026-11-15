@@ -46,6 +46,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Cost Down of Flight Controller SoM
 
 [Preferences]
 PrefsVaultGUID=
@@ -662,6 +663,35 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=b759c34c-9221-4f37-bf17-f397a7bb0f02
+Description=Cost Down of Flight Controller SoM
+AllowFabrication=0
+ParameterCount=0
+VariationCount=21
+Variation1=Designator=R33|UniqueId=\QFYLPQWN\PFNQYJTI|Kind=1|AlternatePart=
+Variation2=Designator=C68|UniqueId=\QFYLPQWN\VPXKMXVC|Kind=1|AlternatePart=
+Variation3=Designator=U11|UniqueId=\QFYLPQWN\ZUYYGYAH|Kind=1|AlternatePart=
+Variation4=Designator=R34|UniqueId=\QCRPLFLY\KXLDAHHZ|Kind=1|AlternatePart=
+Variation5=Designator=R10|UniqueId=\QCRPLFLY\FNKXIDQD|Kind=1|AlternatePart=
+Variation6=Designator=U10|UniqueId=\QCRPLFLY\EHVGJDDD|Kind=1|AlternatePart=
+Variation7=Designator=C69|UniqueId=\QCRPLFLY\WMJJXXLH|Kind=1|AlternatePart=
+Variation8=Designator=C70|UniqueId=\QCRPLFLY\MWSNHZPM|Kind=1|AlternatePart=
+Variation9=Designator=C71|UniqueId=\QCRPLFLY\GAPHJYZG|Kind=1|AlternatePart=
+Variation10=Designator=R11|UniqueId=\AIRTTDMW\IFXSRTBM|Kind=1|AlternatePart=
+Variation11=Designator=R12|UniqueId=\AIRTTDMW\SYJKJAVV|Kind=1|AlternatePart=
+Variation12=Designator=C46|UniqueId=\AIRTTDMW\ZZSTUPQV|Kind=1|AlternatePart=
+Variation13=Designator=R13|UniqueId=\AIRTTDMW\RNDIOXOF|Kind=1|AlternatePart=
+Variation14=Designator=U6|UniqueId=\AIRTTDMW\SGZMOHEL|Kind=1|AlternatePart=
+Variation15=Designator=U9|UniqueId=\QVCTNVKZ\HSMMONAS|Kind=1|AlternatePart=
+Variation16=Designator=C49|UniqueId=\QVCTNVKZ\ONHAVTKJ|Kind=1|AlternatePart=
+Variation17=Designator=R14|UniqueId=\FXPNQSCJ\WTIVKQOG|Kind=1|AlternatePart=
+Variation18=Designator=U7|UniqueId=\FXPNQSCJ\WUXUSEVP|Kind=1|AlternatePart=
+Variation19=Designator=C47|UniqueId=\FXPNQSCJ\UMGJFEIH|Kind=1|AlternatePart=
+Variation20=Designator=R15|UniqueId=\FXPNQSCJ\OVUUQKYN|Kind=1|AlternatePart=
+Variation21=Designator=R16|UniqueId=\FXPNQSCJ\VFEAPXSE|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Flight Controller SoM\Design Rule Check - Flight Controller SoM.html
