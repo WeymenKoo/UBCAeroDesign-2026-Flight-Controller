@@ -1,9 +1,0 @@
-Added Pin To Net: NetName=PG9 Pin=U1-A10
-Added Net: Name=PG9
-Add Net: Net with name "SD_CD" already exists
-Add Net: Net with name "SD_CLK" already exists
-Add Net: Net with name "SD_CMD" already exists
-Add Net: Net with name "SD_DATA0" already exists
-Add Net: Net with name "SD_DATA1" already exists
-Add Net: Net with name "SD_DATA2" already exists
-Add Net: Net with name "SD_DATA3" already exists

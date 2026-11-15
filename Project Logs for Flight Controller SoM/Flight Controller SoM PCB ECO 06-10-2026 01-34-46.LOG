@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=J4-73
-Removed Pin From Net: NetName=GND Pin=J4-74
-Removed Pin From Net: NetName=GND Pin=J4-75
-Change Component DesignItemId : Designator=X1 Old DesignItemId=CMP-004-000000-1 New DesignItemId=CMP-004-000000-2
-Change Component Footprint: Designator=X1 Old Footprint=OSC-SMD_4P-L3.2-W2.5-BL New Footprint=OSC-SMD_4P-L3.2-W2.5-BL
-Change Component Designator: OldDesignator=3 NewDesignator=U11
-Change Managed Component Library Link : Designator=X1 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=7B0A2D5E-EBAE-4FF9-9C0E-91C3097FD1EE New ItemGUID=7B0A2D5E-EBAE-4FF9-9C0E-91C3097FD1EE Old RevisionGUID=86C37F51-3AC7-47BB-BA61-76CD8C84A2E0 New RevisionGUID=f7fd499c-6753-4566-a1f5-afcd4ddaefc0

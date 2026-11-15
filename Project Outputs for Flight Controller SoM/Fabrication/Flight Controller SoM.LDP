@@ -1,4 +1,0 @@
-Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\Flight Controller SoM\Flight Controller SoM.PcbDoc
-LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=flight controller som-roundholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
-LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=flight controller som-slotholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
-LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=flight controller som-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
