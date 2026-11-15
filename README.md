@@ -136,9 +136,8 @@ After uploading the BOM, 22 lines have no LCSC number: ICs, connectors, inductor
 ### Re-exporting from Altium
 1. Open `altium/Flight Controller SoM.PrjPcb` and run `FC_SoM_Release.OutJob`. Altium writes into a `Project Outputs for Flight Controller SoM/` folder, which git ignores.
 2. Zip the 15 Gerber files and the 3 drill `.TXT` files into `jlcpcb/FC_SoM_RevA_Gerbers.zip`. Copy the schematic PDF to the repo root and the STEP model to `mechanical/FC_SoM_RevA.step`.
-3. If a part moved, rebuild the CPL from Altium's pick-and-place with the columns Designator, Mid X, Mid Y, Layer (Top/Bottom) and Rotation. Altium's own BOM export merges different values into one line per footprint, so the JLCPCB BOM is kept by hand.
-
-In Altium, `LCSC Part #` on R1, R18, R20 and R27 still points at the parts for their old values. The JLCPCB BOM here is correct; fix those four parameters before building a BOM from Altium.
+3. If a part moved, rebuild the CPL from Altium's pick-and-place with the columns Designator, Mid X, Mid Y, Layer (Top/Bottom) and Rotation. Leave the test pads (TP1–TP22) out; they are not assembled.
+4. Altium's own BOM export merges different values into one line per footprint, so it can't be uploaded. Keep `jlcpcb/FC_SoM_RevA_BOM_JLCPCB.csv` in sync by hand.
 
 ## Repository layout
 
