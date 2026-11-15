@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=+VMUX Pin=C65-1
-Removed Pin From Net: NetName=GND Pin=C65-2
-Removed Pin From Net: NetName=+D3V3 Pin=C79-1
-Removed Pin From Net: NetName=GND Pin=C79-2
-Removed Pin From Net: NetName=+D3V3 Pin=C80-1
-Removed Pin From Net: NetName=GND Pin=C80-2
-Removed Member From Class: ClassName=U_Power Member=C65
-Removed Member From Class: ClassName=U_Power Member=C79
-Removed Member From Class: ClassName=U_Power Member=C80

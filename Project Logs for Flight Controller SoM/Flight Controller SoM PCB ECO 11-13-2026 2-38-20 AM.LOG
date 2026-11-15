@@ -1,3 +1,0 @@
-Change Component DesignItemId : Designator=U12 Old DesignItemId=CMP-341-000000-1 New DesignItemId=CMP-341-000000-2
-Change Component Footprint: Designator=U12 Old Footprint=DQN0004A-MFG New Footprint=DQN0004A-MFG
-Change Managed Component Library Link : Designator=U12 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=E6F0A92F-9F07-402C-B8E2-07C4E36994ED New ItemGUID=E6F0A92F-9F07-402C-B8E2-07C4E36994ED Old RevisionGUID=287E244C-42FB-4E3A-854E-C3CBD88F8C3B New RevisionGUID=0918d2fc-d46e-4b89-adff-83162da1c0e9

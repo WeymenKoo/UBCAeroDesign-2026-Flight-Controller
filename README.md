@@ -1,29 +1,58 @@
 # UBC AeroDesign Flight Controller SoM
 
-System-on-module flight controller for UBC AeroDesign, built around the STM32H757 and targeting ArduPilot. The module carries the MCU, IMUs, barometers, storage and power conversion, and connects to a carrier board and a payload board through two board-to-board connectors.
+A flight-controller system-on-module for UBC AeroDesign, built around the STM32H757 and running ArduPilot. The 55 × 40 mm, 8-layer module carries the MCU, two IMUs, two barometers, a magnetometer, FRAM, microSD and the power path. It plugs into a carrier board and a payload board through two Hirose DF17 board-to-board connectors.
 
-![Flight Controller SoM, top and bottom](docs/images/fc_som_duo_16x9_3840x2160.jpg)
+<p align="center">
+  <img src="renders/fc_som_top_angle.jpg" alt="Flight Controller SoM, top side" width="100%">
+</p>
 
-| Top | Bottom | Bottom, angled |
-|---|---|---|
-| ![Top](docs/images/fc_som_top_3840x2160.jpg) | ![Bottom](docs/images/fc_som_bottom_3840x2160.jpg) | ![Bottom, angled](docs/images/fc_som_bottom_angle_3840x2160.jpg) |
+<p align="center">
+  <b><a href="FC_SoM_RevA_Schematic.pdf">Schematic (PDF)</a></b> &nbsp;·&nbsp;
+  <b><a href="jlcpcb/">JLCPCB files</a></b> &nbsp;·&nbsp;
+  <b><a href="mechanical/FC_SoM_RevA.step">STEP model</a></b> &nbsp;·&nbsp;
+  <b><a href="altium/">Altium project</a></b>
+</p>
+
+<p align="center">
+  <img src="renders/fc_som_bottom_angle.jpg" alt="Flight Controller SoM, bottom side with the two DF17 connectors and the microSD socket" width="100%">
+</p>
+
+## At a glance
 
 | | |
 |---|---|
-| Revision | Rev A (prototype) |
-| Size | 55 × 40 mm, 8 layers |
-| MCU | STM32H757XIH6, Cortex-M7 at 400 MHz |
+| Revision | Rev A |
+| Board | 55 × 40 mm, 8 layers, ENIG, black mask, white silkscreen |
+| Processor | STM32H757XIH6, Cortex-M7 at 400 MHz, 2 MB flash |
 | Firmware | ArduPilot (ChibiOS) |
-| Input | 5 V from carrier or USB-C |
-| Finish | Black solder mask, white silkscreen, ENIG |
+| Sensors | 2 IMUs, 2 barometers, magnetometer |
+| Storage | 32 KB FRAM (parameters), microSD (logs), 8 KB EEPROM (board ID) |
+| Power | 5 V from the carrier or USB-C, eFuse with a 1.1 A limit |
+| I/O | 16 PWM, 8 UARTs + USB, 4 I2C, 2 CAN, 5 ADC |
+| Assembly | 150 parts (59 top, 91 bottom), 22 test pads |
+
+## Board views
+
+<p align="center">
+  <img src="renders/fc_som_top_white.jpg" alt="Top view" width="100%">
+</p>
+
+<p align="center">
+  <img src="renders/fc_som_bottom_white.jpg" alt="Bottom view" width="100%">
+</p>
+
+<p align="center">
+  <img src="renders/fc_som_duo.jpg" alt="Two boards on a table, one top side up and one bottom side up" width="100%">
+</p>
+
+More renders are in [`renders/`](renders/).
 
 ## Hardware
 
 ### Processor
-- STM32H757XIH6 (not the `A` suffix), TFBGA-265, 2 MB flash.
-- Core supply from the internal SMPS in direct mode. Maximum clock in this mode is 400 MHz.
-- 25 MHz HSE crystal.
-- Cortex-M4 core unused.
+- STM32H757XIH6 (not the `A` suffix), TFBGA-265.
+- Core supply from the internal SMPS in direct mode, so the maximum clock is 400 MHz.
+- 25 MHz HSE crystal. The Cortex-M4 core is unused.
 
 ### Sensors
 
@@ -35,18 +64,17 @@ System-on-module flight controller for UBC AeroDesign, built around the STM32H75
 | Barometer 2 | TE MS5611 | SPI5 |
 | Magnetometer | ST LIS2MDL (optional) | I2C4, 0x1E |
 
-Each SPI bus carries one IMU and one barometer, so a single bus failure leaves one complete IMU and barometer pair.
+Each SPI bus carries one IMU and one barometer, so a single bus failure leaves a complete IMU and barometer pair.
 
 ### Storage
 - Parameters: Infineon FM25V02A, 32 KB FRAM on SPI2.
-- Board ID: ST M24C64 EEPROM on I2C4, 0x50, write-protected by default.
 - Logs: microSD (Hirose DM3), 4-bit SDMMC1.
+- Board ID: ST M24C64 EEPROM on I2C4, 0x50, write-protected by default. ArduPilot has no driver for it.
 
 ### Power
-- Two 5 V inputs: carrier (J4) and USB-C VBUS. TI TPS2116 priority mux; the carrier has priority.
-- TI TPS259474A eFuse: 1.1 A current limit, under- and over-voltage lockout.
-- TI TLV62569 buck: 3.3 V main rail.
-- TI TPS7A20 LDO: separate 3.3 V rail for the sensors.
+- Two 5 V inputs, carrier (J4) and USB-C VBUS, through a TI TPS2116 priority mux. The carrier has priority.
+- TI TPS259474A eFuse with a 1.1 A current limit. The carrier input is accepted from 4.19 V (rising, drops out at 3.81 V) up to 5.46 V.
+- TI TLV62569 buck for the 3.3 V main rail, TI TPS7A20 LDO for a separate 3.3 V sensor rail.
 
 ### Interfaces
 
@@ -68,46 +96,63 @@ I/O available through J4 and J5:
 - 5 ADC inputs with RC filters on the module. Voltage dividers are on the carrier.
 - SBUS input, safety switch and LED, buzzer, arming output, 6 GPIO.
 
+### Test points
+22 pads (0.8 mm, top side): VBUS, +VCARRIER, +5V_EFUSE, +VMUX, +3V3LDO, +A3V3, 6 × GND, debug UART, SPI1, internal I2C, both IMU interrupts, DBG2 and PAY_IO17.
+
 ## Firmware
 
-ArduPilot board definition files (`hwdef.dat`, `hwdef-bl.dat`) are drafted and pass `chibios_hwdef.py`. They have not yet been compiled or run on hardware.
+ArduPilot board definition files (`hwdef.dat`, `hwdef-bl.dat`) are drafted and pass `chibios_hwdef.py`. They are not in this repo yet and have not been compiled or run on hardware.
 
-- Board ID `AP_HW_UBC_FCSOM` is a placeholder until allocated in `Tools/AP_Bootloader/board_types.txt`.
 - `define SMPS_PWR` is required. A build without it misconfigures the core supply.
+- Board ID `AP_HW_UBC_FCSOM` is a placeholder until allocated in `Tools/AP_Bootloader/board_types.txt`.
 - Board forward is the top edge (J5 side), marked by the X arrow on the top silkscreen.
-- IMU rotation from datasheet and footprint orientation: `ROTATION_ROLL_180_YAW_90` for both IMUs. Confirm by motion test.
+- IMU rotation from the datasheets and footprints: `ROTATION_ROLL_180_YAW_90` for both IMUs. Confirm with a motion test.
 - The LSM6DSV32X must have I2C disabled (`IF_CFG`) before any other traffic on SPI1.
 
-## Manufacturing
+## Manufacturing (JLCPCB)
 
-- Fabrication and assembly: JLCPCB, both sides populated.
-- 8 layers: SIG / GND / SIG / PWR / GND / SIG / GND / SIG.
-- Vias in pads: order epoxy-filled and capped vias.
-- The board is below JLCPCB's assembly minimum size; panelise or add edge rails.
-- Outputs (Gerber RS-274X, Excellon drill, pick-and-place, BOM, STEP) are generated by the Altium OutJob into `Project Outputs for Flight Controller SoM/`.
+> [!WARNING]
+> The Gerber/drill zip and the schematic PDF were exported before the last board change on 14 Nov 2026 (22 test pads added, DBG2 moved to ball H17). Re-export them from Altium before ordering (steps below). The BOM and CPL already match the current board.
+
+| File | Upload as |
+|---|---|
+| [`jlcpcb/FC_SoM_RevA_Gerbers.zip`](jlcpcb/FC_SoM_RevA_Gerbers.zip) | Gerber files (15 Gerber layers and 3 Excellon drill files) |
+| [`jlcpcb/FC_SoM_RevA_BOM_JLCPCB.csv`](jlcpcb/FC_SoM_RevA_BOM_JLCPCB.csv) | BOM |
+| [`jlcpcb/FC_SoM_RevA_CPL_JLCPCB.csv`](jlcpcb/FC_SoM_RevA_CPL_JLCPCB.csv) | CPL (pick and place) |
+
+| Order setting | Value |
+|---|---|
+| Layers | 8 |
+| Layer sequence | L1 `.GTL`, L2 `.G1`, L3 `.G2`, L4 `.G3`, L5 `.G4`, L6 `.G5`, L7 `.G6`, L8 `.GBL` (files are already in stack order) |
+| Stack-up | Any JLCPCB 8-layer stack-up. No impedance control is needed (USB full speed only). The stack in the Altium file is not one JLCPCB builds. |
+| Thickness | 1.6 mm (JLCPCB default) |
+| Surface finish | ENIG |
+| Via covering | Epoxy filled and capped. About 200 vias sit in pads; free on 6+ layer boards. |
+| Mask / silkscreen | Black / white |
+| Assembly | Standard PCBA, both sides. The board is under 70 × 70 mm, so JLCPCB adds 5 mm edge rails. |
+| Inspection | X-ray for the BGA |
+
+After uploading the BOM, 21 lines have no LCSC number: ICs, connectors, inductors, switches and R18. Their Comment column holds the exact manufacturer part number, so match them in JLCPCB's BOM tool. Then check every rotation in the placement preview, particularly U1, J1, J2, J4 and J5.
+
+### Re-exporting from Altium
+1. Open `altium/Flight Controller SoM.PrjPcb`. Set `LCSC Part #` on R1 to C25077, R20 to C122548 and R27 to C138065, and on R18 to a 249 kΩ 1 % 0402 part (0402WGF2493TCE). These four still carry the LCSC numbers of their old values, which would bring back the old power-path behaviour.
+2. Run `FC_SoM_Release.OutJob`. Altium writes into a `Project Outputs for Flight Controller SoM/` folder, which git ignores.
+3. Zip the 15 Gerber files and the 3 drill `.TXT` files into `jlcpcb/FC_SoM_RevA_Gerbers.zip`. Copy the schematic PDF to the repo root and the STEP model to `mechanical/FC_SoM_RevA.step`.
+4. If a part moved, rebuild the CPL from Altium's pick-and-place with the columns Designator, Mid X, Mid Y, Layer (Top/Bottom) and Rotation. Altium's own BOM export merges different values into one line per footprint, so keep the JLCPCB BOM in sync by hand.
 
 ## Repository layout
 
 ```
-Flight Controller SoM.PrjPcb             Altium project
-Project Outputs for Flight Controller SoM/
-  Fabrication/                           Gerbers and drill files
-  Assembly/                              Pick-and-place and BOM
-  Mechanical/                            STEP model
-  Documentation/                         Schematic PDF
-firmware/hwdef/                          ArduPilot hwdef.dat and hwdef-bl.dat
-docs/images/                             Renders
+FC_SoM_RevA_Schematic.pdf   Schematic, 23 pages
+jlcpcb/                     Gerber and drill zip, BOM, CPL: the JLCPCB upload set
+mechanical/                 STEP model of the assembled board
+altium/                     Altium Designer project: schematic sheets, PCB, ActiveBOM, OutJob
+renders/                    Product renders
 ```
 
 ## Status
 
-Rev A is in pre-order review. Not yet fabricated or tested.
-
-Open before ordering:
-- Power-path BOM changes: R20 33.2 kΩ, R27 110 kΩ (OVLO 5.46 V), R18 249 kΩ (mux threshold).
-- Supplier part numbers for all BOM lines.
-- Plane clearance to the 0.65 mm peg holes (increase to 0.25 mm).
-- Regenerate the schematic PDF.
+Rev A. Design complete and Altium DRC clean (0 violations, 14 Nov 2026). Not yet fabricated or tested.
 
 ## Authors
 

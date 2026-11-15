@@ -1,4 +1,0 @@
-Change Component DesignItemId : Designator=J4 Old DesignItemId=CMP-003-000029-2 New DesignItemId=CMP-003-000029-3
-Change Component Footprint: Designator=J4 Old Footprint=HRS_DF17(4.0)-80DP-0.5V(57) New Footprint=HRS_DF17(4.0)-80DP-0.5V(57)
-Change Managed Component Library Link : Designator=J4 Old VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 New VaultGUID=05eaeb1a-82fc-47d7-826f-d733764381c3 Old ItemGUID=5A03AD3C-9554-463A-839F-E65276B2599C New ItemGUID=5A03AD3C-9554-463A-839F-E65276B2599C Old RevisionGUID=1fe47684-664d-4637-aeea-45bbbf890523 New RevisionGUID=9c802cc6-1c94-4b49-8f8e-a674c306f077
-Change Class Name : Old Net Name=U_Sensor_LSM6DSV32X? New Net Name=U_Sensor_LSM6DSV32X
