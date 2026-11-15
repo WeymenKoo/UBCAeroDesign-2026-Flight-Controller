@@ -1,0 +1,58 @@
+Change Component Comment : Designator=R1 Old Comment=0R New Comment=10R
+Change Component Comment : Designator=R20 Old Comment=38k3 New Comment=33k2
+Change Component Comment : Designator=C53 Old Comment=100n New Comment=1u
+Change Component Comment : Designator=R27 Old Comment=105k New Comment=110k
+Change Component Comment : Designator=R18 Old Comment=300k New Comment=249k
+Change component parameters: Designator = "R1" ("R1"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\VIGXUZGR\GXCBFOWH" ("\VIGXUZGR\GXCBFOWH")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C17168"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF0000TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18" ("R18"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\GQZHONUG\ZXBBPBJF" ("\GQZHONUG\ZXBBPBJF")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C25774"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF3003TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "249k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\GQZHONUG\FLPQLURI" ("\GQZHONUG\FLPQLURI")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C26976"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF3832TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "33k2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27" ("R27"); Footprint = "IPC C R0402 NO SILK"; UniqueID = "\GQZHONUG\MLQLTINA" ("\GQZHONUG\MLQLTINA")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "Generic RES 0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C25742"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "0402WGF1053TCE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/16W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "Schlib1.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "110k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C53" ("C53"); Footprint = "CAPC1005X05N"; UniqueID = "\WBOLSSZT\BSNYPLSH" ("\WBOLSSZT\BSNYPLSH")
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part #"; Value = "C52923"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A105KA5NQNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1u"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"

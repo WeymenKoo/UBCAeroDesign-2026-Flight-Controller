@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=DBG2 Pin=U1-H1
+Added Component: Designator=TP?(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PAY_IO17 Pin=TP?-1
+Added Pin To Net: NetName=DBG2 Pin=U1-H17
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP? Test Pad

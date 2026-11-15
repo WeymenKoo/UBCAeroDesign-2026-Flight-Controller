@@ -1,0 +1,112 @@
+Added Component: Designator=TP1(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP10(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP11(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP12(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP13(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP14(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP15(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP16(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP17(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP18(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP19(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP20(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP21(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Component: Designator=TP22(PCBComponent_1)
+Add component (AddParameter): Name = "Design Item ID"; Value = "TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "Testpoint.SchLib"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCORE Pin=TP1-1
+Added Pin To Net: NetName=VBUS Pin=TP2-1
+Added Pin To Net: NetName=+VCARRIER Pin=TP3-1
+Added Pin To Net: NetName=+5V_EFUSE Pin=TP4-1
+Added Pin To Net: NetName=+VMUX Pin=TP5-1
+Added Pin To Net: NetName=+3V3LDO Pin=TP6-1
+Added Pin To Net: NetName=GND Pin=TP7-1
+Added Pin To Net: NetName=GND Pin=TP8-1
+Added Pin To Net: NetName=+A3V3 Pin=TP9-1
+Added Pin To Net: NetName=GND Pin=TP10-1
+Added Pin To Net: NetName=DEBUG_RX Pin=TP11-1
+Added Pin To Net: NetName=DEBUG_TX Pin=TP12-1
+Added Pin To Net: NetName=GND Pin=TP13-1
+Added Pin To Net: NetName=GND Pin=TP14-1
+Added Pin To Net: NetName=IMU1_INT1 Pin=TP15-1
+Added Pin To Net: NetName=I2C_INT_SDA Pin=TP16-1
+Added Pin To Net: NetName=I2C_INT_SCL Pin=TP17-1
+Added Pin To Net: NetName=IMU2_INT1 Pin=TP18-1
+Added Pin To Net: NetName=SPI1_SCK Pin=TP19-1
+Added Pin To Net: NetName=SPI1_MOSI Pin=TP20-1
+Added Pin To Net: NetName=SPI1_MISO Pin=TP21-1
+Added Pin To Net: NetName=DBG2 Pin=TP22-1
+Added Pin To Net: NetName=DBG2 Pin=U1-H1
+Added Net: Name=DBG2
+Added Member To Class: ClassName=U_MCU_Power Member=Component TP1 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP2 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP3 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP4 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP5 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP6 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP7 Test Pad
+Added Member To Class: ClassName=U_Power Member=Component TP8 Test Pad
+Added Member To Class: ClassName=U_MCU_Power Member=Component TP9 Test Pad
+Added Member To Class: ClassName=U_MCU_Power Member=Component TP10 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP11 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP12 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP13 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP14 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP15 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP16 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP17 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP18 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP19 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP20 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP21 Test Pad
+Added Member To Class: ClassName=U_MCU_IO Member=Component TP22 Test Pad
